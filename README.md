@@ -1,5 +1,9 @@
-= INI file Syntax Highlighting =
+INI file Syntax Highlighting
+============================
 
-=== Installation ===
+
+
+Installation
+------------
 
 Instructions coming soon...
