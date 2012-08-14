@@ -6,6 +6,8 @@
 	<array>
 		<string>ini</string>
 		<string>INI</string>
+		<string>inf</string>
+		<string>INF</string>
 	</array>
 	<key>name</key>
 	<string>INI</string>
