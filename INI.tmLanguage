@@ -7,7 +7,9 @@
 		<string>ini</string>
 		<string>INI</string>
 		<string>inf</string>
-		<string>INF</string>
+    <string>INF</string>
+    <string>pylintrc</string>
+		<string>cfg</string>
 	</array>
 	<key>name</key>
 	<string>INI</string>
