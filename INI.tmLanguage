@@ -8,6 +8,8 @@
 		<string>INI</string>
 		<string>inf</string>
 		<string>INF</string>
+		<string>reg</string>
+		<string>REG</string>
 	</array>
 	<key>name</key>
 	<string>INI</string>
@@ -23,9 +25,9 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>^(#|;).*$\n?</string>
+			<string>(#|;).*$\n?</string>
 			<key>name</key>
-			<string>comment.line.semi-colon.ini</string>
+			<string>comment.line.semicolon.ini</string>
 		</dict>
 		<dict>
 			<key>captures</key>
@@ -99,9 +101,14 @@
 					<key>name</key>
 					<string>punctuation.definition.quote.ini</string>
 				</dict>
+				<key>10</key>
+				<dict>
+					<key>name</key>
+					<string>comment.declarationline.semicolon.ini</string>
+				</dict>
 			</dict>
 			<key>match</key>
-			<string>^(\s*(["']?)(.+?)(\2)\s*(=))?\s*((["']?)(.*?)(\7))\s*$\n?</string>
+			<string>^(\s*(["']?)(.+?)(\2)\s*(=))?\s*((["']?)(.*?)(\7))\s*(;.*)?$\n?</string>
 			<key>name</key>
 			<string>meta.declaration.ini</string>
 		</dict>
