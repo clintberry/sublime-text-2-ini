@@ -11,6 +11,7 @@ Installation
 
 Changelog
 -------
+- 2014-05-05 Added *.lng (Language translation files) to fileTypes for highlighting
 - 2013-03-20 Comment allowed anywhere on the line (including on the same line after properties or section declarations).
 
 Credits
