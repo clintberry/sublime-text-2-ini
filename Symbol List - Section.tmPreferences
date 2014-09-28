@@ -5,14 +5,14 @@
 	<key>name</key>
 	<string>Symbol List: INI</string>
 	<key>scope</key>
-	<string>source.ini meta.tag.section.ini</string>
+	<string>source.ini meta.tag.section.ini, source.ini meta.property.ini keyword.name.ini</string>
 	<key>settings</key>
 	<dict>
 		<key>showInSymbolList</key>
 		<integer>1</integer>
 		<key>symbolTransformation</key>
 		<string>
-			s/\s*\[(.*)\]/$1/
+			s/^(?!\[)(.+)/    $1/
 		</string>
 	</dict>
 </dict>
