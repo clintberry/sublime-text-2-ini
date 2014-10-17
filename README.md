@@ -17,4 +17,4 @@ Changelog
 Credits
 -------
 
-[ClintBerry](https://github.com/clintberry)
+Most of this was taken from another script I found on the internet. I just googled around and can't find the original author. Kudos go to whoever it was. Also, thanks for all the pull requests.
