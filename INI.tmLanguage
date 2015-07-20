@@ -11,6 +11,9 @@
 		<string>reg</string>
 		<string>REG</string>
 		<string>lng</string>
+		<string>cfg</string>
+		<string>CFG</string>
+		<string>.editorconfig</string>
 	</array>
 	<key>name</key>
 	<string>INI</string>
