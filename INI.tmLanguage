@@ -13,6 +13,8 @@
 		<string>lng</string>
 		<string>cfg</string>
 		<string>CFG</string>
+		<string>url</string>
+		<string>URL</string>
 		<string>.editorconfig</string>
 	</array>
 	<key>name</key>
