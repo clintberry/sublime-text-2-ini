@@ -16,6 +16,8 @@
 		<string>url</string>
 		<string>URL</string>
 		<string>.editorconfig</string>
+		<string>.buckconfig</string>
+		<string>.flowconfig</string>
 	</array>
 	<key>name</key>
 	<string>INI</string>
