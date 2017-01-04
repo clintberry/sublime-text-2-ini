@@ -114,7 +114,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>^(\s*(["']?)(.+?)(\2)\s*(=))?\s*((["']?)(.*?)(\7))\s*(;.*)?$\n?</string>
+			<string>^(\s*(["']?)(.+?)((?:(?&lt;!\\))\2)\s*(=))?\s*((["']?)(.*?)((?:(?&lt;!\\))\7))\s*(;.*)?$\n?</string>
 			<key>name</key>
 			<string>meta.declaration.ini</string>
 		</dict>
