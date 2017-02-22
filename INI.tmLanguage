@@ -5,6 +5,9 @@
 	<key>fileTypes</key>
 	<array>
 		<string>ini</string>
+		<string>ini-production</string>
+		<string>ini-development</string>
+		<string>ini.dist</string>
 		<string>INI</string>
 		<string>inf</string>
 		<string>INF</string>
