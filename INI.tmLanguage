@@ -53,9 +53,14 @@
 					<key>name</key>
 					<string>punctuation.definition.section.ini</string>
 				</dict>
+				<key>4</key>
+				<dict>
+					<key>name</key>
+					<string>comment.definition.section.ini</string>
+				</dict>
 			</dict>
 			<key>match</key>
-			<string>^\s*(\[)(.*?)(\])</string>
+			<string>^\s*(\[)(.*?)(\])\s*(;.*)?$\n?</string>
 			<key>name</key>
 			<string>meta.tag.section.ini</string>
 		</dict>
